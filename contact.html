@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with the Nostra team. We are here to help with orders, sizing, and everything in between.">
+  <title>Contact — Nostra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <div class="announcement" data-announcement>
+    <p>A little something for your first order: enjoy <strong>15% off</strong></p>
+    <button class="announcement-close" type="button" aria-label="Dismiss announcement" data-dismiss-announcement>&times;</button>
+  </div>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Nostra home">nostra<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation" data-main-nav>
+      <a href="index.html">Home</a>
+      <a href="collections.html">Collections</a>
+      <a class="active" href="contact.html" aria-current="page">Contact</a>
+      <a class="nav-cta" href="collections.html">Shop now <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-hero content-width">
+      <p class="eyebrow">We're here for you</p>
+      <h1>Let's make it<br><em>a conversation.</em></h1>
+      <p>Questions about a piece, an order, or just want to say hello? Drop us a note. We’d love to hear from you.</p>
+    </section>
+
+    <section class="contact-layout content-width">
+      <aside class="contact-details">
+        <div class="contact-detail"><p class="eyebrow">A little note</p><p>Our team is around Monday to Friday, 9am–5pm. We aim to get back to you within two working days.</p></div>
+        <div class="contact-detail"><p class="eyebrow">Write to us</p><a href="mailto:hello@nostra.example">hello@nostra.example</a></div>
+        <div class="contact-detail"><p class="eyebrow">Follow along</p><p>Instagram &nbsp; / &nbsp; Pinterest</p></div>
+        <div class="contact-note"><span aria-hidden="true">✳</span><p>Good things take time.<br>We promise we’ll be in touch soon.</p></div>
+      </aside>
+      <form class="contact-form" data-contact-form>
+        <div class="form-row">
+          <label>Your name<input name="name" type="text" autocomplete="name" placeholder="Name" required></label>
+          <label>Email address<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label>
+        </div>
+        <label>What can we help with?
+          <select name="topic" required>
+            <option value="" disabled selected>Choose a topic</option>
+            <option>Order question</option>
+            <option>Product and sizing</option>
+            <option>Returns and exchanges</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>Your message<textarea name="message" rows="5" placeholder="Tell us a little more..." required></textarea></label>
+        <button class="button button-dark form-submit" type="submit">Send your message <span aria-hidden="true">↗</span></button>
+        <p class="form-feedback contact-feedback" data-contact-feedback aria-live="polite">Demo form: messages are not sent to an inbox.</p>
+      </form>
+    </section>
+
+    <section class="contact-bottom">
+      <p class="eyebrow">Find your next favorite</p>
+      <h2>Good style is just<br><em>around the corner.</em></h2>
+      <a class="button button-dark" href="collections.html">Shop the collection <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="wordmark wordmark-light" href="index.html">nostra<span>.</span></a><p>Everyday, elevated.<br>Thoughtfully made, endlessly worn.</p></div>
+      <div class="footer-links"><p class="eyebrow">Explore</p><a href="collections.html">Collections</a><a href="contact.html">Contact us</a><a href="index.html#top">Our story</a></div>
+      <div class="footer-links"><p class="eyebrow">Find us</p><a href="mailto:hello@nostra.example">hello@nostra.example</a><p>Instagram &nbsp; Pinterest</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 Nostra. Made for everyday.</span><span>Thoughtful style, for wherever life takes you.</span></div>
+  </footer>
+</body>
+</html>

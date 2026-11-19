@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover thoughtful everyday style at Nostra. Shop new arrivals, wardrobe essentials, and accessories.">
+  <title>Nostra — Everyday, Elevated</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <div class="announcement" data-announcement>
+    <p>A little something for your first order: enjoy <strong>15% off</strong></p>
+    <button class="announcement-close" type="button" aria-label="Dismiss announcement" data-dismiss-announcement>&times;</button>
+  </div>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Nostra home">nostra<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation" data-main-nav>
+      <a class="active" href="index.html" aria-current="page">Home</a>
+      <a href="collections.html">Collections</a>
+      <a href="contact.html">Contact</a>
+      <a class="nav-cta" href="collections.html">Shop now <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&amp;fit=crop&amp;w=2200&amp;q=85" alt="Friends exploring a city in relaxed, modern outfits">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">The new season, considered</p>
+        <h1>Find your<br>everyday <em>feeling.</em></h1>
+        <p class="hero-copy">Good pieces. Better days. Meet the wardrobe staples made to move with you.</p>
+        <a class="button button-light" href="collections.html">Explore the collection <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="hero-index">01 <span></span> 03</span>
+    </section>
+
+    <section class="brand-strip content-width" aria-label="Our values">
+      <p>Made for real life</p><span>✳</span><p>Thoughtful by design</p><span>✳</span><p>Worn on repeat</p><span>✳</span><p>Always Nostra</p>
+    </section>
+
+    <section class="intro-section content-width">
+      <div>
+        <p class="eyebrow">A wardrobe with a point of view</p>
+        <h2>Less, but<br><em>so much better.</em></h2>
+      </div>
+      <div class="intro-copy">
+        <p>We believe getting dressed should feel easy. Nostra brings together considered silhouettes, tactile fabrics, and the kind of details you notice every time you wear them.</p>
+        <a class="text-link" href="collections.html">Get to know your new favorites <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="category-section content-width">
+      <div class="section-heading">
+        <div><p class="eyebrow">Find your fit</p><h2>Made for <em>your</em> days</h2></div>
+        <a class="text-link" href="collections.html">Shop all <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="collections.html#products" data-category-link="women">
+          <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Woman in a relaxed neutral outfit">
+          <span class="category-overlay"><span>01 / For her</span><strong>Women's edit</strong><span class="category-arrow">↗</span></span>
+        </a>
+        <a class="category-card" href="collections.html#products" data-category-link="men">
+          <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Man wearing a contemporary casual look">
+          <span class="category-overlay"><span>02 / For him</span><strong>Men's edit</strong><span class="category-arrow">↗</span></span>
+        </a>
+        <a class="category-card" href="collections.html#products" data-category-link="accessories">
+          <img src="https://images.unsplash.com/photo-1491637639811-60e2756cc1c7?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Everyday accessories arranged together">
+          <span class="category-overlay"><span>03 / The finishing touch</span><strong>Accessories</strong><span class="category-arrow">↗</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <p class="eyebrow">Our kind of everyday</p>
+      <blockquote>“The pieces you reach for.<br>The feeling you come back to.”</blockquote>
+      <a class="button button-dark" href="collections.html">Shop Nostra <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="newsletter content-width">
+      <div><p class="eyebrow">A good note, now and then</p><h2>Stay in the <em>know.</em></h2></div>
+      <form class="newsletter-form" data-newsletter-form>
+        <label class="sr-only" for="newsletter-email">Your email address</label>
+        <input id="newsletter-email" name="email" type="email" placeholder="Your email address" required>
+        <button type="submit" aria-label="Subscribe to newsletter">Join us <span aria-hidden="true">→</span></button>
+        <p class="form-feedback" data-newsletter-feedback aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="wordmark wordmark-light" href="index.html">nostra<span>.</span></a><p>Everyday, elevated.<br>Thoughtfully made, endlessly worn.</p></div>
+      <div class="footer-links"><p class="eyebrow">Explore</p><a href="collections.html">Collections</a><a href="contact.html">Contact us</a><a href="index.html#top">Our story</a></div>
+      <div class="footer-links"><p class="eyebrow">Find us</p><a href="mailto:hello@nostra.example">hello@nostra.example</a><p>Instagram &nbsp; Pinterest</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 Nostra. Made for everyday.</span><span>Thoughtful style, for wherever life takes you.</span></div>
+  </footer>
+</body>
+</html>
